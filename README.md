@@ -47,6 +47,8 @@ puts stack_exchange.users
 
 See the [examples directory](http://github.com/jnunemaker/httparty/tree/master/examples) for even more goodies.
 
+Note: Putting `include HTTParty` into some existing Rails classes, like ActiveRecord models, can cause errors. Using an standalone class is usually the best approach.
+
 ## Command Line Interface
 
 httparty also includes the executable `httparty` which can be
